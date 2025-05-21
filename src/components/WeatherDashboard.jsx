@@ -107,7 +107,7 @@ function WeatherDashboard() {
               {/* Current Weather */}
               {weather && (
                 <div className="current-weather mb-4">
-                  <div className="card bg-primary weather_card text-white">
+                  <div className="card bg-primary weather_card p-0 text-white">
                     <div className="card-body">
                       <div className="d-flex align-items-center mb-2">
                         <h2 className="card-title mb-0 me-2">{weather.name}</h2>
