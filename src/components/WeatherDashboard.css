@@ -1,0 +1,51 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00b4db, #0083b0);
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.current-weather .card {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+
+.weather-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.country-flag {
+  color: #ffd700;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+}
+
+.forecast .card {
+  transition: transform 0.2s;
+}
+
+.forecast .card:hover {
+  transform: translateY(-5px);
+}
+
+.input-group {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1a7a94, #5bc0d9);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
