@@ -54,6 +54,12 @@ body {
   color: #888;
 }
 
+/* @media screen and (max-width: 425px) {
+  .card-body {
+    padding: 0 !important;
+  }
+} */
+
 @media screen and (max-width: 375px) {
   .btn-primary {
     font-size: 10px;

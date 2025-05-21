@@ -69,7 +69,7 @@ function WeatherDashboard() {
     <div className="container py-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <div className="card shadow-lg">
+          <div className="card shadow-lg p-0">
             <div className="card-body">
               <h1 className="text-center mb-4">Weather Dashboard</h1>
 
@@ -107,7 +107,7 @@ function WeatherDashboard() {
               {/* Current Weather */}
               {weather && (
                 <div className="current-weather mb-4">
-                  <div className="card bg-primary text-white">
+                  <div className="card bg-primary weather_card text-white">
                     <div className="card-body">
                       <div className="d-flex align-items-center mb-2">
                         <h2 className="card-title mb-0 me-2">{weather.name}</h2>
